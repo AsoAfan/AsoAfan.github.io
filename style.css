@@ -88,11 +88,16 @@ img {
 
 button {
   border: none;
-  background-color: hsl(158, 36%, 37%);
+  background-color: rgba(60, 128, 103, 1);
   color: #fff;
   font-size: 14px;
   padding: 12px 20px;
   border-radius: 5px;
   width: 100%;
   font-family: Montserrat;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(60, 128, 103, 0.6);
 }
