@@ -6,13 +6,17 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: hsl(30, 38%, 92%);
   text-align: left;
 }
 
 p {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: Montserrat, Fraunces;
   color: hsl(228, 12%, 48%);
   line-height: 1.6;
@@ -21,59 +25,65 @@ p {
 h1 {
   font-family: Fraunces;
   color: hsl(212, 21%, 14%);
-  margin-bottom: 20px;
-  font-size: 33px;
+  margin-bottom: 2rem;
+  font-size: 3.3rem;
   /* line-height: 1;
   letter-spacing: 0px; */
 }
 
 .head {
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 6px;
+  font-size: 1.2rem;
+  letter-spacing: 0.6rem;
   font-weight: 500;
 }
 
 .parent {
   display: flex;
   align-items: center;
-  height: 600px;
+  height: 100vh;
   justify-content: center;
+  flex-direction: column;
 }
 
 .container {
   display: flex;
   background-color: hsl(0, 0%, 100%);
   /* margin: 0 auto; */
-  gap: 20px;
+  gap: 2rem;
   border-radius: 10px;
+  margin: auto;
+  /* min-width: 60rem; */
+  height: 45rem;
+  /* overflow: hidden; */
 }
 
 img {
-  width: 300px;
+  width: 30rem;
   height: auto;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 .product-info {
-  width: 285px;
-  padding: 20px;
+  width: 28.5rem;
+  padding: 2rem;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .product-info p:first-child {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .text {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .price {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 .price p {
@@ -81,17 +91,17 @@ img {
 }
 
 .price strong {
-  font-size: 35px;
-  font-family: Fraunces;
+  font-size: 3.5rem;
+  font-family: "Fraunces", serif;
   color: hsl(158, 36%, 37%);
 }
 
 button {
   border: none;
-  background-color: rgba(60, 128, 103, 1);
+  background-color: hsl(158, 36%, 37%);
   color: #fff;
-  font-size: 14px;
-  padding: 12px 20px;
+  font-size: 1.4rem;
+  padding: 1.2rem 2rem;
   border-radius: 5px;
   width: 100%;
   font-family: Montserrat;
@@ -99,5 +109,5 @@ button {
 }
 
 button:hover {
-  background-color: rgba(60, 128, 103, 0.6);
+  background-color: rgba(60, 128, 103, 0.9);
 }
